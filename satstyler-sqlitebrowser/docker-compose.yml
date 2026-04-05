@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: imp-sqlitebrowser
+      APP_HOST: satstyler-sqlitebrowser
       APP_PORT: 3000
   server:
     container_name: sqlitebrowser
