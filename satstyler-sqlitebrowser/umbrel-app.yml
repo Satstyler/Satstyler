@@ -2,7 +2,6 @@ manifestVersion: 1
 id: satstyler-sqlitebrowser
 category: Development
 name: Sqlitebrowser
-icon: https://svgshare.com/i/vVK.svg
 version: "3.12.2"
 tagline: Open Source cross platform SQLite GUI
 description: >-
