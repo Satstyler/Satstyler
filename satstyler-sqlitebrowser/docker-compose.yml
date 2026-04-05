@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
   server:
     container_name: sqlitebrowser
-    image: linuxserver/sqlitebrowser:3.12.2@sha256:a69be9e9dd8ea7db86165c4b5623999ff408175d9b559d25b3aefb51d899bb41
+    image: linuxserver/sqlitebrowser:3.13.1@sha256:1b1e81f0af222af3353a4c8d3c4737264a1816a43e4410819430335fa099b1da
     environment:
       - PUID=1000
       - PGID=1000
