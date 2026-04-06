@@ -1,25 +1,45 @@
 manifestVersion: 1
-id: satstyler-adguard
+id: adguard-home
 category: networking
 name: AdGuard Home
-version: "0.107.45"
-tagline: Network-wide ads and trackers blocking DNS server
+version: "0.107.73"
+tagline: Network-wide software for blocking ads and tracking
 description: >-
-  AdGuard Home is a network-wide software for blocking ads and tracking.
-  After you set it up, it will cover ALL your home devices, and you don't need
-  any client-side software for that. It operates as a DNS server that re-routes
-  tracking domains to a "black hole," preventing your devices from connecting
-  to those servers.
-developer: AdGuard Software
-website: https://adguard.com/en/adguard-home/overview.html
-icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/adguard-home.png
+  ⚠️ See below for important set-up instructions.
+
+  
+  AdGuard Home is a comprehensive solution designed to block ads and tracking across all devices in your home network. As the world increasingly embraces the Internet of Things,
+  with a growing number of connected devices, maintaining control over your entire network is crucial. AdGuard Home empowers you to manage this with ease, ensuring a secure and
+  clutter-free browsing experience for every device under your roof.
+
+
+  🛠️ SET-UP INSTRUCTIONS
+
+  In the setup wizard, it is important to set the "Port" of the Admin Web Interface to 8095.
+  This ensures that the app will not conflict with other apps from the Umbrel App Store, and that the app will be accessible
+  when clicking on the app icon in the umbrelOS homescreen.
+releaseNotes: >-
+  🚨 Critical Security Update: This hotfix addresses a critical vulnerability that could allow users to bypass authentication and gain full access to AdGuard Home without valid credentials. Updating immediately is strongly recommended.
+
+
+  Security Fix:
+    - Authentication is now enforced for requests upgraded from HTTP/2 Cleartext (H2C) to public resources
+
+
+  Full release notes can be found at https://github.com/AdguardTeam/AdGuardHome/releases
+developer: Adguard
+website: https://adguard.com/fr/adguard-home/overview.html
 dependencies: []
 repo: https://github.com/AdguardTeam/AdGuardHome
-support: https://github.com/AdguardTeam/AdGuardHome/discussions
-port: 3000
+support: https://github.com/AdguardTeam/AdGuardHome/issues
+port: 8095
 gallery:
-  - https://image.thum.io/get/width/1280/noanimate/https://adguard.com/en/adguard-home/overview.html
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
 path: ""
-defaultUsername: "admin"
-defaultPassword: "changeme"
-torOnly: false
+defaultUsername: ""
+defaultPassword: ""
+submitter: Julienpeps
+submission: https://github.com/getumbrel/umbrel-apps/pull/1038
