@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: denny-torbrowser_web_1
+      APP_HOST: satstyler-torbrowser_web_1
       APP_PORT: 5800
       PROXY_AUTH_ADD: "false"
   web:
