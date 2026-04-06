@@ -34,11 +34,9 @@ repo: https://github.com/AdguardTeam/AdGuardHome
 support: https://github.com/AdguardTeam/AdGuardHome/issues
 port: 8095
 gallery:
-- https://imgur.com/gtLjT0L
-#  - 1.jpg
-#  - 2.jpg
- # - 3.jpg
- # - 4.jpg
+
+  - https://cdn.adguard.com/public/Adguard/Blog/brumew.png?0=&mw=1360
+  - https://imgur.com/gtLjT0L
 path: ""
 defaultUsername: ""
 defaultPassword: ""
