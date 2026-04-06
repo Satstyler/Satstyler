@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: denny-myip_web_1
+      APP_HOST: satstyler-myip_web_1
       APP_PORT: 18966
       PROXY_AUTH_ADD: "false"
   web:
