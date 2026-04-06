@@ -34,10 +34,11 @@ repo: https://github.com/AdguardTeam/AdGuardHome
 support: https://github.com/AdguardTeam/AdGuardHome/issues
 port: 8095
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
+- https://imgur.com/gtLjT0L
+#  - 1.jpg
+#  - 2.jpg
+ # - 3.jpg
+ # - 4.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
