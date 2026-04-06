@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: big-bear-umbrel-dbgate
+category: BigBearCasaOS
+name: DBGate
+version: "7.1.6-alpine"
+tagline: DBGate
+description: >-
+  Web based UI for managing and exploring SQL database data 
+releaseNotes: >-
+  This version includes various improvements and bug fixes.
+developer: dbgate
+website: https://hub.docker.com/r/dbgate/dbgate
+dependencies: []
+repo: https://github.com/bigbeartechworld/big-bear-universal-apps
+support: https://github.com/bigbeartechworld/big-bear-universal-apps/issues
+port: 10033
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: https://cdn.jsdelivr.net/gh/bigbeartechworld/big-bear-universal-apps/apps/dbgate/logo.png
+submitter: BigBearTechWorld
+submission: https://github.com/bigbeartechworld/big-bear-universal-apps
